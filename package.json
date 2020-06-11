@@ -1,0 +1,37 @@
+{
+  "name": "rtc-chat",
+  "version": "0.1.0",
+  "description": "Peer-to-peer video chat using WebRTC",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel app/static/*.js -d assets",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgnr/rtc-chat.git"
+  },
+  "keywords": [
+    "video",
+    "chat",
+    "webrtc"
+  ],
+  "author": "Morgan Robertson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mrgnr/rtc-chat/issues"
+  },
+  "homepage": "https://github.com/mrgnr/rtc-chat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1"
+  }
+}
